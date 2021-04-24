@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./quiz.css">
+    <script src="./project.js"></script>
+</head>
+<body>
+    <form name="quiz"id="quiz" class=Quz>
+        <div>
+            <p>Question 1: What is the third planet from the Sun?</p>
+            <p1><input type="radio" name="question1" value=" Earth"> Earth</p1>
+            <p1><input type="radio" name="question1" value="Jupiter">Jupiter</p1>
+            <p1><input type="radio" name="question1" value="Mars">Mars</p1>
+        </div>
+        <div>
+            <p>Question 2: What planet is closest to the Sun?</p>
+            <p2><input type="radio" name="question2" value="Saturn">Saturn</p2>
+            <p2><input type="radio" name="question2" value="Mercury">Mercury</p2>
+            <p2><input type="radio" name="question2" value="Venus">Venus</p2>
+        </div>
+        <div>
+            <p>Question 3: What planet is nicknamed the ‘Red Planet’?</p>
+            <p3><input type="radio" name="question3" value="Uranus">Uranus</p3>
+            <p3><input type="radio" name="question3" value="Neptune">Neptune</p3>
+            <p3><input type="radio" name="question3" value="Mars">Mars</p3>
+        </div>
+        <div>
+            <p>Question 4: What planet is closest in size to Earth?</p>
+            <p4><input type="radio" name="question4" value=" Venus"> Venus</p4>
+            <p4><input type="radio" name="question4" value=" Earth"> Earth</p4>
+            <p4><input type="radio" name="question4" value="Uranus">Uranus</p4>
+        </div>
+        <div>
+            <p>Question 5:What is the hottest planet in the Solar System?</p>
+            <p5><input type="radio" name="question5" value="Neptune">Neptune</p5>
+            <p5><input type="radio" name="question5" value="Mars">Mars</p5>
+            <p5><input type="radio" name="question5" value="Venus">Venus</p5>
+        </div>
+        <input type="button"id="btn" value="Submit" onclick="check()">
+    </form>
+    <p id="result"></p>
+</body>
+</html>

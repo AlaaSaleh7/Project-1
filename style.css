@@ -1,71 +1,64 @@
-/* global*/
+:root{
+    background-color: rgb(17, 7, 7);
+}
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62%;
+    font-family: 'Nova Square',cursive;
 }
-
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-/* header style*/
 header{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(235, 223, 187);
-    display: flex;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    align-items: center;
-    flex:0 0 70%;
-    border-bottom: 1px solid;
-    box-shadow: 5px 5px 12px 5px #045222;
+    color: rgb(212, 38, 175);
+    font-size: 5rem;
 }
-.color{
-    color: rgb(182, 28, 36);
-    flex:0 0 70%;
+span{
+    color: yellowgreen;
+}
+h1{
+    font-size: 5rem;
+    color:cornsilk;
+    margin-bottom: 5 rem;
+    margin:   30px 0 ;
 }
 
-.links{
-    display: flex;
-    align-items: center;
-    flex:0 0 30%;
-    width: 50%;
-}
-.banner{
-    width: 100%;
+.container{
+    width: 100vw;
     height:100vh;
-    background-image:url('./culture.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-center{
+    text-align: center;
+}
+.hidden{
+    display: none;
 }
 
-.question{
-    width: 60%;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    color: black;
+.btn{
     font-size: 2.5rem;
+    padding: 2rem;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(218, 198, 216);
+    background: rgb(212, 38, 175);
+    border-radius: 4px;
+    margin-left: 11rem;
 }
-
-.bto{
-    padding: 0.5rem 1rem;
-    border: none;
-    font-size: 1.3rem;
-    margin: 10px; 
-    background-color:rgb(19, 100, 175);
-    color: burlywood;
-    border-radius: 5px;
+.btn:hover{
     cursor: pointer;
-    box-shadow: 5px 5px 12px 5px #53645a;
-    display: block;
-}
-p{
-    font-size: 1.5rem;
-}
+    transition: transform 150ms;
+    transform: scale(1.03);
+    flex: content;
 
+}
