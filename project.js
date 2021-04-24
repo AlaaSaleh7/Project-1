@@ -24,12 +24,12 @@ function check(){
   if(q10==="Mars"){i++}
   quiz.style.display="none";
   if(i<=5){
-    result.textContent = ` Oop! Your result is ${i}`
+    result.textContent = ` Oops! Your result is ${i}`
   }
   else if(i<=7){
-    result.textContent = `its Good ^^ Your result is ${i} `
+    result.textContent = `it's Good ^^ Your result is ${i} `
   }
   else{
-    result.textContent = `its awesome ^^ Your result is ${i} `
+    result.textContent = `it's awesome ^^ Your result is ${i} `
   }
 }

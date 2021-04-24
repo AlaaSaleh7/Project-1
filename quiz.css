@@ -34,7 +34,7 @@
 }
 #result{
     font-size: 5rem;
-    color:cornsilk;
+    color: rgb(218, 198, 216);
     margin-bottom: 5 rem;
     margin:   30px 0 ;
 }
@@ -64,28 +64,87 @@ p1,
 p6{
 color: yellowgreen;
 cursor:pointer;
+padding: 1rem;
 }
 
 p2,
 p7{
 color: tomato;
 cursor:pointer;
+padding: 1rem;
 }
 
 p3,
 p8{
 color: violet;
 cursor:pointer;
+padding: 1rem;
 }
 
 p4,
 p9{
 color: yellow;
 cursor:pointer;
+padding: 1rem;
 }
 
 p5,
 p10{
 color: aqua;
 cursor:pointer;
+padding: 1rem;
+}
+
+p1:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p2:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p3:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p4:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p10:hover{
+    color:  rgb(212, 38, 175);
+    font-size: 3rem; 
+}
+p5:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p6:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p7:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p8:hover{
+    color:  rgb(212, 38, 175);
+    font-size: 3rem; 
+}
+p9:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+p10:hover{
+    color:  rgb(212, 38, 175); 
+    font-size: 3rem;
+}
+input[type=radio]{
+    transform: scale(1.5);
+    cursor: pointer;
+    width: 60px;
+}
+span1{
+    color:  rgb(212, 38, 175); 
+    font-size: 2.5rem;
 }
