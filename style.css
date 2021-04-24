@@ -1,5 +1,5 @@
 :root{
-    background-color: rgb(17, 7, 7);
+    background-color: #002147;
 }
 *{
     box-sizing: border-box;
@@ -60,5 +60,4 @@ h1{
     transition: transform 150ms;
     transform: scale(1.03);
     flex: content;
-
 }

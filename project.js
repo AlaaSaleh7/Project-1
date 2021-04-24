@@ -5,6 +5,11 @@ function check(){
   let q3= document.quiz.question3.value;
   let q4= document.quiz.question4.value;
   let q5= document.quiz.question5.value;
+  let q6= document.quiz.question6.value;
+  let q7= document.quiz.question7.value;
+  let q8= document.quiz.question8.value;
+  let q9= document.quiz.question9.value;
+  let q10= document.quiz.question10.value;
   let result =document.getElementById("result");
   let quiz = document.getElementById("quiz")
   if(q1===" Earth"){i++}
@@ -12,10 +17,19 @@ function check(){
   if(q3==="Mars"){i++}
   if(q4===" Venus"){i++}
   if(q5==="Venus"){i++}
+  if(q6==="Eight"){i++}
+  if(q7==="Mercury"){i++}
+  if(q8==="Jupiter"){i++}
+  if(q9==="Neptune"){i++}
+  if(q10==="Mars"){i++}
   quiz.style.display="none";
-  if(i<=3){
-    result.textContent = `Your result is ${i}`
-  }else{
-    result.textContent = `Your result is ${i} and its awesome`
+  if(i<=5){
+    result.textContent = ` Oop! Your result is ${i}`
+  }
+  else if(i<=7){
+    result.textContent = `its Good ^^ Your result is ${i} `
+  }
+  else{
+    result.textContent = `its awesome ^^ Your result is ${i} `
   }
 }
