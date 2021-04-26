@@ -12,7 +12,7 @@ function check(){
   let q10= document.quiz.question10.value;
   let result =document.getElementById("result");
   let quiz = document.getElementById("quiz")
-  if(q1===" Earth"){i++}
+  if(q1==="Earth"){i++}
   if(q2==="Mercury"){i++}
   if(q3==="Mars"){i++}
   if(q4===" Venus"){i++}
@@ -25,6 +25,7 @@ function check(){
   quiz.style.display="none";
   if(i<=5){
     result.textContent = ` Oops! Your result is ${i}`
+    
   }
   else if(i<=7){
     result.textContent = `it's Good ^^ Your result is ${i} `
@@ -32,4 +33,5 @@ function check(){
   else{
     result.textContent = `it's awesome ^^ Your result is ${i} `
   }
+  
 }
